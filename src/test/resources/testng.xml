@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
+
+<suite name="Run TestNG" parallel="tests" thread-count="1">
+	 <listeners>
+
+		<listener class-name="com.cognizant.Listeners.TestNGListener" />
+
+	</listeners> 
+	<test name="Test for Single Task Creation, deletion and update">
+		<classes>
+			<class
+				name="com.ContractTesting.ConversionService.CurrencyConversionServiceApplicationTestsEndPoint" />
+		</classes>
+	</test>
+
+</suite>

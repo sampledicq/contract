@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-06T06:34:52 UTC" name="Run TestNG" finished-at="2021-07-06T06:34:56 UTC" duration-ms="4221">
+    <groups>
+    </groups>
+    <test started-at="2021-07-06T06:34:52 UTC" name="Test for Single Task Creation, deletion and update" finished-at="2021-07-06T06:34:56 UTC" duration-ms="4221">
+      <class name="com.ContractTesting.ConversionService.CurrencyConversionServiceApplicationTestsEndPoint">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:com.ContractTesting.ConversionService.CurrencyConversionServiceApplicationTestsEndPoint@1b955cac]" started-at="2021-07-06T06:34:52 UTC" name="springTestContextBeforeTestClass" finished-at="2021-07-06T06:34:52 UTC" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.ContractTesting.ConversionService.CurrencyConversionServiceApplicationTestsEndPoint@1b955cac]" started-at="2021-07-06T06:34:52 UTC" name="springTestContextPrepareTestInstance" finished-at="2021-07-06T06:34:53 UTC" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.ContractTesting.ConversionService.CurrencyConversionServiceApplicationTestsEndPoint@1b955cac]" started-at="2021-07-06T06:34:53 UTC" name="startTest" finished-at="2021-07-06T06:34:54 UTC" duration-ms="949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.ContractTesting.ConversionService.CurrencyConversionServiceApplicationTestsEndPoint@1b955cac]" started-at="2021-07-06T06:34:54 UTC" name="springTestContextBeforeTestMethod" finished-at="2021-07-06T06:34:54 UTC" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ContractTesting.ConversionService.CurrencyConversionServiceApplicationTestsEndPoint.given_WhenConvertingFromUSDtoINR_ThenReturn() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="given_WhenConvertingFromUSDtoINR_ThenReturn()[pri:0, instance:com.ContractTesting.ConversionService.CurrencyConversionServiceApplicationTestsEndPoint@1b955cac]" started-at="2021-07-06T06:34:54 UTC" name="given_WhenConvertingFromUSDtoINR_ThenReturn" finished-at="2021-07-06T06:34:56 UTC" duration-ms="2302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- given_WhenConvertingFromUSDtoINR_ThenReturn -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.ContractTesting.ConversionService.CurrencyConversionServiceApplicationTestsEndPoint@1b955cac]" started-at="2021-07-06T06:34:56 UTC" name="springTestContextAfterTestMethod" finished-at="2021-07-06T06:34:56 UTC" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ContractTesting.ConversionService.CurrencyConversionServiceApplicationTestsEndPoint.given_WhenConvertingFromUSDtoINR_ThenReturn() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ContractTesting.ConversionService.CurrencyConversionServiceApplicationTestsEndPoint@1b955cac]" started-at="2021-07-06T06:34:56 UTC" name="endTest" finished-at="2021-07-06T06:34:56 UTC" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:com.ContractTesting.ConversionService.CurrencyConversionServiceApplicationTestsEndPoint@1b955cac]" started-at="2021-07-06T06:34:56 UTC" name="springTestContextAfterTestClass" finished-at="2021-07-06T06:34:56 UTC" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.ContractTesting.ConversionService.CurrencyConversionServiceApplicationTestsEndPoint -->
+    </test> <!-- Test for Single Task Creation, deletion and update -->
+  </suite> <!-- Run TestNG -->
+</testng-results>
